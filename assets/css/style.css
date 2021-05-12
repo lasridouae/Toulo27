@@ -775,6 +775,7 @@ ul.top-info li p.info-text {
 @media (max-width: 991px) {
   .navbar-collapse.collapse {
     overflow-y: auto;
+    padding-left: 165px;
   }
 }
 
@@ -789,8 +790,16 @@ ul.top-info li p.info-text {
   }
 }
 
+@media (max-width: 991px) {
+  .header-one .logo {
+    margin-top: 0em;
+    width: 4em;
+  }
+}
+
 .header-one .logo-area {
   padding: 30px 0;
+ 
 }
 
 .navbar-fixed {
@@ -1035,9 +1044,8 @@ ul.navbar-nav > li > a i {
 
 @media (max-width: 991px) {
   ul.navbar-nav > li > a i {
-    float: right;
     background: #222;
-    padding: 6px 10px;
+    padding: 7px 11px;
     margin-top: 7px;
   }
   .header-two ul.navbar-nav > li > a i {
